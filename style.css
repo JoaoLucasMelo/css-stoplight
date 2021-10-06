@@ -1,0 +1,51 @@
+.mx-auto {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.pole {
+    height: 200px;
+    width: 100px;
+    background-color: black;
+}
+
+.box {
+    height: 550px;
+    width: 300px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.red {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 50%;
+
+}
+.red:hover {
+    box-shadow: 0   0   50px coral;
+}
+
+.yellow {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(251, 255, 0);
+    border-radius: 50%;
+}
+.yellow:hover {
+    box-shadow: 0   0   50px rgb(221, 255, 109);
+}
+
+.green {
+    height: 150px;
+    width: 150px;
+    background-color: rgb(61, 255, 13);
+    border-radius: 50%;
+}
+.green:hover {
+    box-shadow: 0   0   50px rgb(136, 255, 115);
+}
